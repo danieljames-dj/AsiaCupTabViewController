@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DFE5C14120E31CF0004A6AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5C14020E31CF0004A6AB0 /* AppDelegate.swift */; };
-		DFE5C14320E31CF0004A6AB0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5C14220E31CF0004A6AB0 /* FirstViewController.swift */; };
-		DFE5C14520E31CF0004A6AB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5C14420E31CF0004A6AB0 /* SecondViewController.swift */; };
-		DFE5C14820E31CF0004A6AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5C14620E31CF0004A6AB0 /* Main.storyboard */; };
 		DFE5C14A20E31CF6004A6AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE5C14920E31CF6004A6AB0 /* Assets.xcassets */; };
 		DFE5C14D20E31CF6004A6AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5C14B20E31CF6004A6AB0 /* LaunchScreen.storyboard */; };
+		DFE5C15520E31E44004A6AB0 /* DJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5C15420E31E44004A6AB0 /* DJTabBarController.swift */; };
+		DFE5C15720E31EA1004A6AB0 /* DJTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5C15620E31EA1004A6AB0 /* DJTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFE5C13D20E31CF0004A6AB0 /* Asia Cup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asia Cup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE5C14020E31CF0004A6AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFE5C14220E31CF0004A6AB0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DFE5C14420E31CF0004A6AB0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		DFE5C14720E31CF0004A6AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFE5C14920E31CF6004A6AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFE5C14C20E31CF6004A6AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFE5C14E20E31CF6004A6AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5C15420E31E44004A6AB0 /* DJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTabBarController.swift; sourceTree = "<group>"; };
+		DFE5C15620E31EA1004A6AB0 /* DJTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				DFE5C14020E31CF0004A6AB0 /* AppDelegate.swift */,
-				DFE5C14220E31CF0004A6AB0 /* FirstViewController.swift */,
-				DFE5C14420E31CF0004A6AB0 /* SecondViewController.swift */,
-				DFE5C14620E31CF0004A6AB0 /* Main.storyboard */,
 				DFE5C14920E31CF6004A6AB0 /* Assets.xcassets */,
 				DFE5C14B20E31CF6004A6AB0 /* LaunchScreen.storyboard */,
 				DFE5C14E20E31CF6004A6AB0 /* Info.plist */,
+				DFE5C15420E31E44004A6AB0 /* DJTabBarController.swift */,
+				DFE5C15620E31EA1004A6AB0 /* DJTableViewController.swift */,
 			);
 			path = "Asia Cup";
 			sourceTree = "<group>";
@@ -127,7 +124,6 @@
 			files = (
 				DFE5C14D20E31CF6004A6AB0 /* LaunchScreen.storyboard in Resources */,
 				DFE5C14A20E31CF6004A6AB0 /* Assets.xcassets in Resources */,
-				DFE5C14820E31CF0004A6AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +134,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE5C14520E31CF0004A6AB0 /* SecondViewController.swift in Sources */,
+				DFE5C15520E31E44004A6AB0 /* DJTabBarController.swift in Sources */,
+				DFE5C15720E31EA1004A6AB0 /* DJTableViewController.swift in Sources */,
 				DFE5C14120E31CF0004A6AB0 /* AppDelegate.swift in Sources */,
-				DFE5C14320E31CF0004A6AB0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFE5C14620E31CF0004A6AB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFE5C14720E31CF0004A6AB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DFE5C14B20E31CF6004A6AB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +275,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P4HX32H3H;
 				INFOPLIST_FILE = "Asia Cup/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zoho.danyAsiaCup.Asia-Cup";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dany.danyAsiaCup.Asia-Cup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,11 +294,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P4HX32H3H;
 				INFOPLIST_FILE = "Asia Cup/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zoho.danyAsiaCup.Asia-Cup";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dany.danyAsiaCup.Asia-Cup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
